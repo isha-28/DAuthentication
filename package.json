@@ -1,0 +1,55 @@
+{
+  "name": "pict_central_repository",
+  "version": "1.0.0",
+  "description": "PICT central repo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "backend": "nodemon server/index.js",
+    "frontend": "npm run start --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishwesh7/PICT_central_repository.git"
+  },
+  "author": "Anonymous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishwesh7/PICT_central_repository/issues"
+  },
+  "homepage": "https://github.com/vishwesh7/PICT_central_repository#readme",
+  "dependencies": {
+    "@devexpress/analytics-core": "^20.1.4",
+    "@react-pdf/renderer": "^2.0.0-beta.6",
+    "@truffle/contract": "^4.2.12",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.5.0",
+    "concurrently": "^5.2.0",
+    "connect-redis": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "devexpress-reporting": "^20.1.4",
+    "devextreme": "^20.1.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "file-saver": "^2.0.2",
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "jsdom": "^16.3.0",
+    "jspdf": "^1.5.3",
+    "mongodb": "^3.5.9",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "pdf-creator-node": "^1.4.1",
+    "pg": "^8.2.1",
+    "rasterizehtml": "^1.3.0",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-validation": "^0.1.11",
+    "redis": "^3.0.2",
+    "truffle": "^5.1.34",
+    "web3": "^1.2.9"
+  }
+}
